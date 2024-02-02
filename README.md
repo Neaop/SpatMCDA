@@ -1,6 +1,6 @@
 # 🌲🌉  Spatial multi-criteria decision analysis with SpatMCDA 🌉 🌲
 
-*Last updated January 2023*
+*Last updated January 2024*
 
 **How do I install**?
 
