@@ -1,0 +1,51 @@
+Package: SpatMCDA
+Type: Package
+Title: An R Package for Spatial Multi-Criteria Decision Analysis
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Haoran",
+           family = "Wang",
+           role = c("aut", "cre", "dtc", "trl"),
+           email = "whr0458@neau.edu.cn"),
+    person(given = "Jianhua",
+           family = "Xiao",
+           role = c("ctb", "ths", "fnd"),
+           email = "xiaojianhua@neau.edu.cn"),
+    person(given = "Hongbin",
+           family = "Wang",
+           role = c("ctb", "ths", "fnd"),
+           email = "hbwang1940@neau.edu.cn"),
+    person(given = "Xiang",
+           family = "Gao",
+           role = c("ctb", "ths", "fnd"),
+           email = "751386797@qq.com"))
+Description: SpatMCDA is an R package designed for spatial multi-criteria decision analysis,
+    providing tools and functions to aid in the assessment and visualization of infectious
+    disease risks, especially in data-scarce environments. It leverages advanced spatial data
+    analysis techniques to enable robust decision-making.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+ByteCompile: TRUE
+URL: https://github.com/Neaop
+BugReports: 617280311@qq.com
+Depends: R (>= 3.5.0)
+Imports: 
+    terra,
+    raster,
+    ggplot2,
+    magrittr,
+    grDevices,
+    graphics,
+    methods,
+    utils,
+    rasterVis
+Suggests: 
+    testthat (>= 3.2.1),
+    knitr (>= 1.45),
+    rmarkdown
+Language: en-AU
+Config/testthat/edition: 3
+VignetteBuilder: knitr
